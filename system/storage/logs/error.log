@@ -1,0 +1,21 @@
+2021-11-26 11:55:57 - PHP Unknown:  The Twig_Autoloader class is deprecated since version 1.21 and will be removed in 2.0. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 12
+2021-11-26 11:55:57 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:55:57 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:55:57 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:55:57 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:02 - PHP Unknown:  The Twig_Autoloader class is deprecated since version 1.21 and will be removed in 2.0. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 12
+2021-11-26 11:56:02 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:02 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:02 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:02 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:05 - PHP Unknown:  The Twig_Autoloader class is deprecated since version 1.21 and will be removed in 2.0. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 12
+2021-11-26 11:56:05 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:05 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:05 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:05 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:13 - PHP Unknown:  The Twig_Autoloader class is deprecated since version 1.21 and will be removed in 2.0. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 12
+2021-11-26 11:56:13 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:13 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:13 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:13 - PHP Unknown:  Using Twig_Autoloader is deprecated since version 1.21. Use Composer instead. in C:\OpenServer\domains\work\system\library\template\Twig\Autoloader.php on line 30
+2021-11-26 11:56:57 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'work' in C:\OpenServer\domains\work\system\library\db\mysqli.php on line 7
