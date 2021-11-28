@@ -118,6 +118,10 @@ class ControllerProductProduct extends Controller {
 				$url .= '&description=' . $this->request->get['description'];
 			}
 
+            if (isset($this->request->get['short_description'])) {
+                $url .= '&short_description=' . $this->request->get['short_description'];
+            }
+
 			if (isset($this->request->get['category_id'])) {
 				$url .= '&category_id=' . $this->request->get['category_id'];
 			}
@@ -185,6 +189,10 @@ class ControllerProductProduct extends Controller {
 				$url .= '&description=' . $this->request->get['description'];
 			}
 
+            if (isset($this->request->get['short_description'])) {
+                $url .= '&short_description=' . $this->request->get['short_description'];
+            }
+
 			if (isset($this->request->get['category_id'])) {
 				$url .= '&category_id=' . $this->request->get['category_id'];
 			}
@@ -241,8 +249,11 @@ class ControllerProductProduct extends Controller {
 			$data['reward'] = $product_info['reward'];
 			$data['points'] = $product_info['points'];
 			$data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
+            $data['short_description'] = html_entity_decode($product_info['short_description'], ENT_QUOTES, 'UTF-8');
 
-			if ($product_info['quantity'] <= 0) {
+
+
+            if ($product_info['quantity'] <= 0) {
 				$data['stock'] = $product_info['stock_status'];
 			} elseif ($this->config->get('config_stock_display')) {
 				$data['stock'] = $product_info['quantity'];
@@ -413,7 +424,8 @@ class ControllerProductProduct extends Controller {
 					'thumb'       => $image,
 					'name'        => $result['name'],
 					'description' => utf8_substr(trim(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'))), 0, $this->config->get('theme_' . $this->config->get('config_theme') . '_product_description_length')) . '..',
-					'price'       => $price,
+                    'short_description' => utf8_substr(trim(strip_tags(html_entity_decode($result['short_description'], ENT_QUOTES, 'UTF-8'))), 0, $this->config->get('theme_' . $this->config->get('config_theme') . '_product_description_length')) . '..',
+                    'price'       => $price,
 					'special'     => $special,
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
@@ -473,6 +485,10 @@ class ControllerProductProduct extends Controller {
 			if (isset($this->request->get['description'])) {
 				$url .= '&description=' . $this->request->get['description'];
 			}
+
+            if (isset($this->request->get['short_description'])) {
+                $url .= '&short_description=' . $this->request->get['short_description'];
+            }
 
 			if (isset($this->request->get['category_id'])) {
 				$url .= '&category_id=' . $this->request->get['category_id'];

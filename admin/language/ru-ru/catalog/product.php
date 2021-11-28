@@ -28,6 +28,7 @@ $_['column_action']          = 'Действие';
 
 // Entry
 $_['entry_name']             = 'Название товара';
+$_['entry_short_description']= 'Альтернативное название';
 $_['entry_description']      = 'Описание';
 $_['entry_meta_title']       = 'Мета-тег Title';
 $_['entry_meta_keyword']     = 'Мета-тег Keyword';
